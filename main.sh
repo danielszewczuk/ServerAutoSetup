@@ -6,10 +6,6 @@ sudo timedatectl set-timezone Europe/Warsaw
 apt update -y
 apt upgrade -y
 apt install git curl python3 pip -y
+rm /usr/lib/python3.11/EXTERNALLY-MANAGED
 python3 -m pip install --upgrade pip
 pip install py-cord
-
-
-
-
-
